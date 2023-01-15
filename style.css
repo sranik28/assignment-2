@@ -108,6 +108,7 @@
     
 }
 /* icons section  style */
+
 .icons{
     display: flex;
     justify-content: space-evenly;
@@ -159,7 +160,7 @@
     }
     .icons{
          flex-direction: column;
-         padding-left: 40px;
+         padding-left: 57px;
     }     
     .icons-titl{
         transition: transform 1s;
@@ -204,6 +205,7 @@
     }
     .about-images{
         flex-direction: column-reverse;
+        padding: 10px;
 
     }
     .about-section{
