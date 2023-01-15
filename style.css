@@ -44,6 +44,7 @@
 }
 .banner-img{
     padding: 60px;
+    text-align: center;
 }
 /* about-images section style */
 .about-images{
@@ -151,16 +152,17 @@
 @media screen and (max-width:576px) {
     .sponsors{
         flex-direction: column;
+        align-items: center;
 
     }
     .sponsors img{
         width: 243px;
         padding: 20px;
-        margin-left: 40px;
+        
     }
     .icons{
          flex-direction: column;
-         padding-left: 57px;
+         align-items: center;
     }     
     .icons-titl{
         transition: transform 1s;
@@ -223,11 +225,8 @@
     .secondary-button{
         top: -100px;
         left: -16px;
-    }
-    
+    }    
 } 
-@media screen and (min-width: 577px) and (max-width:992px) {
-    
-}
+
 
 
