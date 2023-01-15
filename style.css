@@ -46,6 +46,9 @@
     padding: 60px;
     text-align: center;
 }
+.banner-img img{
+    width: 100%;
+}
 /* about-images section style */
 .about-images{
     display: flex;
