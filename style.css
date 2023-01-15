@@ -1,0 +1,231 @@
+*{font-family: 'Work Sans', sans-serif;}
+/* primary style */
+.paragraph{
+    color: #727272;
+} 
+.primary-section{
+    font-size: 45px;
+    color: #131313;
+}    
+.primary-button{
+    background-color:#FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px 21px 24px; 
+    border: 0;
+    border-radius: 7px;   
+}    
+/* header section style */
+
+.main{
+    background-color:rgba(255, 144, 14, 0.1); 
+}    
+.header{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 17px;    
+}
+.logo{
+    padding: 0 150px ;    
+}
+.menu-items ul{
+    display: flex;
+    padding: 0 150px;
+}
+.menu-items li {
+  list-style: none;
+  padding: 10px;
+}
+/* banner section style */
+.banner{
+    text-align: center;  
+}
+.heading{
+    font-size: 64px;
+}
+.banner-img{
+    padding: 60px;
+}
+/* about-images section style */
+.about-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 40px 0 0; 
+}    
+.images{
+    display: grid;
+    grid-template-areas: 
+    "images-1 images-2"
+    "images-3 images-4";
+    grid-auto-columns: 350px;
+    gap: 7px;
+    padding: 45px; 
+}
+/* about section style */
+.black-text{
+    color:#131313 ;
+}
+.yellow-text{
+    color: #FF900E;   
+} 
+
+/* feature-section style */
+.feature-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 99px;
+    gap: 100px;
+}
+.left-border{
+    border-left:5px solid #FF900E ;
+    padding-left: 20px;
+}
+.feature {
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 1px 5px 14px -12px #0000004f;
+}
+.secondary-button{
+    background-color:#FF900E;
+    color: #FFFFFF;
+    padding: 46px 42px 45px 42px;
+    border: 0;
+    border-radius: 7px;
+    font-size: 65px;
+    position: relative;
+    top: -80px;
+    left: -75px;
+}
+.Experience{
+    font-size: 25px;
+}
+.Features-images img {
+    max-width:708px ;
+}
+/* some-facts style */
+.some-facts{
+    padding: 0 0 0 70px;
+    
+}
+/* icons section  style */
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin:100px 0 ;
+}
+.icons-title{
+    width: 150px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 50px;
+    transition: transform 1s;
+}
+.icons-title:hover{
+    transform: scale(.85);
+}
+.Sponspors-bar{
+    text-align: center;
+}
+/* Sponspors section style */
+.sponsors{
+    display: flex;
+    justify-content:space-evenly;
+    padding:50px 0 90px;
+
+}
+.sponsors img{
+    filter: grayscale(100%); 
+}
+/* footer section style */
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 30px;
+    color: #424242;
+    margin:0 0 70px ;
+}
+
+/* respinsive style */
+
+@media screen and (max-width:576px) {
+    .sponsors{
+        flex-direction: column;
+
+    }
+    .sponsors img{
+        width: 243px;
+        padding: 20px;
+        margin-left: 40px;
+    }
+    .icons{
+         flex-direction: column;
+         padding-left: 40px;
+    }     
+    .icons-titl{
+        transition: transform 1s;
+        
+    } 
+    .icons-title:hover{
+         transform: scale(.85); 
+
+    }
+    .images{
+        grid-template-areas: 
+        "images-1" 
+        "images-2"
+        "images-3" 
+        "images-4";
+        margin: 50px 0 10px 10px;
+        gap: 12px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .some-facts{
+        margin-right: 20px;
+    }
+    .banner-img img {
+        width: 100%; 
+    }
+    .banner{
+        width: 100%;
+ 
+    }
+    .header{
+        flex-direction: column
+    }
+    .logo{
+        padding:  0 50px;
+        text-align: center;
+    }
+    .menu-items ul {
+        padding: 0 50px;
+    }
+    .about-images{
+        flex-direction: column-reverse;
+
+    }
+    .about-section{
+        padding-left: 40px;
+    }
+    .feature-section{
+        grid-template-columns: 1fr;
+        padding: 32px;
+        gap: 30px;
+
+    }
+    .Features-images img {
+        width: 100%;
+    }
+    .secondary-button{
+        top: -100px;
+        left: -16px;
+    }
+    
+} 
+@media screen and (min-width: 577px) and (max-width:992px) {
+    
+}
+
+
